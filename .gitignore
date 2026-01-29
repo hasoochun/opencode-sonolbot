@@ -1,0 +1,19 @@
+# Sensitive Data
+.env
+__pycache__/
+*.log
+
+# Runtime Data
+mybot/memory/*.txt
+mybot/memory/*.json
+!mybot/memory/.gitkeep
+mybot/bot.py.bak
+processed_mails.json
+
+# Workspace artifacts
+workspace/*
+!workspace/.gitkeep
+
+# OS generated
+.DS_Store
+Thumbs.db
